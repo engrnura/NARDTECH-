@@ -1,0 +1,78 @@
+html {
+    display:grid;
+    overflow: show;
+
+}
+header {
+    background-image: NONE;
+    align-items: center;
+    text-overflow: clip;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2%;
+}
+.blue {color: rgb(8, 8, 247); }
+.green {color: green;}
+.yellow {color: rgb(225, 15, 176);}
+.red {color: red;}
+body {
+    background-image:
+    url(images\ 7.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    overflow: show;
+    
+}
+p {
+    color: white;
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+    margin: auto;
+    grid-auto-flow: column;
+
+}
+nav {
+    color: rgb(14, 31, 223);
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: inherit;
+}
+h3 {
+    background-color: white;
+    text-align: center;
+    background-position: fill;
+    border: 12px;
+    border-radius: 50px;
+    box-sizing: content-box;
+    gap: 12px;
+    padding: auto;
+}
+button {
+    background-color: #fff;
+    scroll-snap-align: left;
+    text-align: center;
+    align-items: end;
+    align-content:end ;
+    align-self: last baseline;
+
+}
+.sign{
+    color: aliceblue;
+    padding: 10px;
+    align-self: flex-end;
+}
+image{
+    width: 8rem;
+    height: 8rem;
+    gap: 30rem;
+    padding: 46px;
+    align-items: end;
+    align-content: end;
+    box-shadow: 12px;
+    border-radius: 2rem;
+}
+
